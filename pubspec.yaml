@@ -80,6 +80,6 @@ ffigen:
   output: lib/bindings.dart
   headers:
     entry-points:
-      - rust/target/bindings.h
+      - rust/bindings.h
   name: LGJRustBindings
   description: Dart bindings to call mylib functions
