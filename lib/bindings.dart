@@ -58,6 +58,7 @@ typedef _c_rust_cstr_free = ffi.Void Function(
   ffi.Pointer<ffi.Int8> s,
 );
 
+
 typedef _dart_rust_cstr_free = void Function(
   ffi.Pointer<ffi.Int8> s,
 );
